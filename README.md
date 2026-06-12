@@ -1,17 +1,105 @@
-# flutter_application_1
+# 📱 Números Primos y Secuenciales
 
-A new Flutter project.
+Aplicación desarrollada en **Flutter** que permite mostrar dos tipos de contadores mediante botones interactivos:
 
-## Getting Started
+- 🔢 **Contador Secuencial** → Incrementa números de forma consecutiva (+1).
+- ✅ **Contador de Números Primos** → Muestra el siguiente número primo cada vez que se presiona el botón.
 
-This project is a starting point for a Flutter application.
+El objetivo del proyecto es practicar el manejo de **StatefulWidget**, actualización de estados con `setState()`, y lógica matemática para verificar números primos.
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## 🚀 Funcionalidades
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+✔ Incrementar contador secuencial.  
+✔ Generar el siguiente número primo automáticamente.  
+✔ Interfaz sencilla usando `Material Design`.  
+✔ Uso de múltiples botones flotantes (`FloatingActionButton`).  
+✔ Implementación de lógica matemática en Flutter.
+
+---
+
+## 🛠 Tecnologías utilizadas
+
+- Flutter  
+- Dart  
+- Material Design  
+
+---
+
+## 📂 Estructura principal
+
+```bash
+lib/
+ └── main.dart
+```
+
+El proyecto contiene:
+
+- `MyApp` → Configuración principal de la aplicación.  
+- `MyHomePage` → Pantalla principal.  
+- `_incrementCounter()` → Incrementa números secuenciales.  
+- `_isPrime()` → Verifica si un número es primo.  
+- `_showNextPrime()` → Busca y muestra el siguiente número primo.
+
+---
+
+## 📸 Capturas de pantalla
+
+<p align="center">
+  <img src="AQUI_TU_IMAGEN_1" width="250"/>
+  <img src="AQUI_TU_IMAGEN_2" width="250"/>
+  <img width="1365" height="717" alt="Captura de pantalla 2026-06-12 000459" src="https://github.com/user-attachments/assets/d7f65dac-a32a-4479-9893-68abf5fadf12" />
+<img width="1365" height="717" alt="Captura de pantalla 2026-06-12 000439" src="https://github.com/user-attachments/assets/c8a5215e-9664-4417-950c-8569304a7514" />
+<img width="1365" height="717" alt="Captura de pantalla 2026-06-12 000424" src="https://github.com/user-attachments/assets/f308d826-63cc-4f77-8152-ea5318a760b0" />
+<img width="1365" height="717" alt="Captura de pantalla 2026-06-12 000412" src="https://github.com/user-attachments/assets/631b16f5-ae95-4dea-b6ba-63b2b4900e89" />
+<img width="1365" height="720" alt="Captura de pantalla 2026-06-12 000355" src="https://github.com/user-attachments/assets/55fa3984-691f-44df-98ff-810549f6ab12" />
+<img width="1365" height="720" alt="Captura de pantalla 2026-06-12 000332" src="https://github.com/user-attachments/assets/6ce53c42-6924-4ffc-bac0-982e64fc21ea" />
+
+</p>
+
+Ejemplo:
+
+```html
+<p align="center">
+  <img src="assets/captura1.png" width="250"/>
+  <img src="assets/captura2.png" width="250"/>
+</p>
+```
+
+O si subes imágenes a GitHub:
+
+```html
+<p align="center">
+  <img src="LINK_DE_IMAGEN" width="250"/>
+  <img src="LINK_DE_IMAGEN" width="250"/>
+</p>
+```
+
+---
+
+## ▶️ Ejecución del proyecto
+
+Clonar repositorio:
+
+```bash
+git clone URL_DEL_REPOSITORIO
+```
+
+Instalar dependencias:
+
+```bash
+flutter pub get
+```
+
+Ejecutar proyecto:
+
+```bash
+flutter run
+```
+
+---
+
+## 👨‍💻 Autor
+
+Desarrollado como práctica de Flutter.
