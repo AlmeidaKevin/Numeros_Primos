@@ -47,8 +47,6 @@ El proyecto contiene:
 ## 📸 Capturas de pantalla
 
 <p align="center">
-  <img src="AQUI_TU_IMAGEN_1" width="250"/>
-  <img src="AQUI_TU_IMAGEN_2" width="250"/>
   <img width="1365" height="717" alt="Captura de pantalla 2026-06-12 000459" src="https://github.com/user-attachments/assets/d7f65dac-a32a-4479-9893-68abf5fadf12" />
 <img width="1365" height="717" alt="Captura de pantalla 2026-06-12 000439" src="https://github.com/user-attachments/assets/c8a5215e-9664-4417-950c-8569304a7514" />
 <img width="1365" height="717" alt="Captura de pantalla 2026-06-12 000424" src="https://github.com/user-attachments/assets/f308d826-63cc-4f77-8152-ea5318a760b0" />
@@ -58,24 +56,6 @@ El proyecto contiene:
 
 </p>
 
-Ejemplo:
-
-```html
-<p align="center">
-  <img src="assets/captura1.png" width="250"/>
-  <img src="assets/captura2.png" width="250"/>
-</p>
-```
-
-O si subes imágenes a GitHub:
-
-```html
-<p align="center">
-  <img src="LINK_DE_IMAGEN" width="250"/>
-  <img src="LINK_DE_IMAGEN" width="250"/>
-</p>
-```
-
 ---
 
 ## ▶️ Ejecución del proyecto
@@ -83,7 +63,7 @@ O si subes imágenes a GitHub:
 Clonar repositorio:
 
 ```bash
-git clone URL_DEL_REPOSITORIO
+git clone https://github.com/AlmeidaKevin/Numeros_Primos.git
 ```
 
 Instalar dependencias:
@@ -97,9 +77,3 @@ Ejecutar proyecto:
 ```bash
 flutter run
 ```
-
----
-
-## 👨‍💻 Autor
-
-Desarrollado como práctica de Flutter.
